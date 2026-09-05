@@ -76,6 +76,11 @@ body {
 }
 
 .container-content p {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
     font-size: 18px;
     max-width: 600px;
 }
@@ -94,8 +99,10 @@ body {
     justify-content: center;
     align-items: center;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
-    transition: o.4s ease;
+    transition: 0.4s ease;
 }
+
+
 
 .a-content:hover {
     transform: scale(1.08);
